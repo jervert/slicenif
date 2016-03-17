@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Based on HTML5 Bones | http://html5bones.com -->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SliceNIF</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="material.min.css">
+  <link rel="stylesheet" href="theme.css">
+  <script src="material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <span class="mdl-layout-title">SliceNIF: letra DNI</span>
+    </div>
+  </header>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="mdl-grid">
+        <div>
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="c_dni" size="8" maxlength="8">
+              <label class="mdl-textfield__label" for="c_dni">DNI</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="c_letra" size="1" readonly>
+            </div>
+            
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" id="bt_calculate">Calcular</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<script src="slicenif.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "slice-nif",
+  "version": "0.0.0",
+  "description": "SliceNIF",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.2",
+    "npm": "2"
+  }
+}

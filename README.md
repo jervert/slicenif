@@ -1,0 +1,2 @@
+# slicenif
+Calculate DNI letter
